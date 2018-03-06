@@ -7,7 +7,7 @@
 
 // -- Title Settings --------------------------------------
 // Show number of aircraft and/or messages per second in the page title
-PlaneCountInTitle = true;
+PlaneCountInTitle = false;
 MessageRateInTitle = false;
 
 // -- Output Settings -------------------------------------
@@ -17,7 +17,7 @@ MessageRateInTitle = false;
 // and in the detailed plane info. If ShowOtherUnits is true,
 // then the other unit will also be shown in the detailed plane
 // info.
-Metric = true;
+Metric = false;
 ShowOtherUnits = true;
 
 // -- Map settings ----------------------------------------
@@ -34,10 +34,10 @@ DefaultZoomLvl   = 7;
 // Center marker. If dump1090 provides a receiver location,
 // that location is used and these settings are ignored.
 
-SiteShow    = false;           // true to show a center marker
+SiteShow    = true;           // true to show a center marker
 SiteLat     = 45.0;            // position of the marker
 SiteLon     = -123;
-SiteName    = "My Radar Site"; // tooltip of the marker
+SiteName    = "LOCALE"; // tooltip of the marker
 
 // -- Marker settings -------------------------------------
 
@@ -105,7 +105,7 @@ SiteCirclesDistances = new Array(100,150,200);
 ShowClocks = false;
 
 // Controls page title, righthand pane when nothing is selected
-PageName = "DUMP1090";
+PageName = "adsb";
 
 // Show country flags by ICAO addresses?
 ShowFlags = true;
